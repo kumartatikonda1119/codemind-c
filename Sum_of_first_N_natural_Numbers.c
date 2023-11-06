@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,s=0;
+    int n,m,i=0;
     scanf("%d",&n);
-    for (i=1;i<=n;i++)
+    for( m = 1;m<=n;m++)
     {
-         s=s+i;
+        i=m+i;
         
-    }printf("%d",s);
+    }printf("%d",i);
+    
 }
