@@ -1,17 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    char str[1000];
+    char a[1000];
+    scanf("%[^
+]",&a);
     int l=0;
     
-    scanf("%[^
-]",&str);
-    for(int i=0;str[i]!=NULL;i++)
+    for( int i=0;a[i]!=NULL;i++)
     {
         l++;
-        
-    }
-    printf("%d",l);
-    
+    }printf("%d",l);
     
 }
