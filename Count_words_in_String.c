@@ -1,17 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    char a[1000],b,c,d,e,i,j,k,l=1;
+  char  a[1000];
     scanf("%[^
 ]",&a);
+    int i,j=1;
+    
+    
     for(i=0;a[i]!=NULL;i++)
     {
         if(a[i]==' ')
         {
-            l++;
+            j++;
             
             
         }
-    }printf("%d",l);
+    }printf("%d",j);
     
 }
