@@ -1,12 +1,15 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    int a,b;
-    scanf("%d",&a);
-    b=a*4;
-    if(b<=1000)
-    printf("YES");
-    else
-    printf("NO");
-    
+    int a;
+    cin>>a;
+    int k=a*4;
+    if(k<=1000)
+    {
+        cout<<"YES";
+        
+    }else {
+        cout<<"NO";
+    }
 }
