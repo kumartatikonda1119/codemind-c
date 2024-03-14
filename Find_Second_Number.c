@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    int x,y,z;
-    scanf("%d%d",&x,&y);
-    z=2*x-y;
-    printf("%d",z);
+    int a,b;
+    cin>>a>>b;
+    int k=(2*a)-b;
+    cout<<k;
+    
 }
