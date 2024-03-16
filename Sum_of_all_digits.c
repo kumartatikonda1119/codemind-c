@@ -1,21 +1,19 @@
-#include <stdio.h>
+#include<iostream>
+using namespace std;
 
-int main() 
+int main()
 {
-    int number, digit, sum = 0;
-
-
-    scanf("%d", &number);
-
+    int a,b=0,c;
+    cin>>a;
+    while(a)
+    {
+    c=a%10;
+    b=b+c;
     
-    while (number > 0) {
-        digit = number % 10; // Get the last digit
-        sum += digit;       // Add the digit to the sum
-        number /= 10;       // Remove the last digit from the number
+        a=a/10;
+        
     }
-
-    // Print the sum of digits
-    printf("%d", sum);
-
+    cout<<b;
+    
     
 }
