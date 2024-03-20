@@ -1,22 +1,19 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    int n,a,b=0,k;
-    
-    scanf("%d",&n);
-    k=n;
-    while (n!=0)
-    {
-        a=n%10;
-        b=b*10+a;
-        n/=10;
-    }
-    if(k==b)
-    {
-        printf("True");
-    }else {
-        printf("False");
-    }
-    
-    
+ int a,c,d=0,e;
+ cin>>a;
+ e=a;
+ 
+ while(a!=0)
+ {
+     c=a%10;
+     d=d*10+c;
+     a/=10;
+     
+     
+ }
+ if(e==d)cout<<"True";
+ else cout<<"False";
 }
